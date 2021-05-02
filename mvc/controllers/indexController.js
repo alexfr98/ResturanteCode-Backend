@@ -130,7 +130,7 @@ const createUser = ({params}, res) => {
       twentyfiveOrdersChef: false,
       fiftyOrdersChef: false,
       hundredOrdersChef: false,
-      
+    
       firstBasicOrderChef: false,
       tenBasicOrdersChef: false,
       twentyfiveBasicOrdersChef: false,
@@ -176,7 +176,7 @@ const createUser = ({params}, res) => {
       firstConditionalIfElseOrderWaiter: false,
       tenConditionalIfElseOrdersWaiter: false,
       thirtyConditionalIfElseOrdersWaiter: false,
-      
+
       firstIterativeOrderWaiter: false,
       tenIterativeOrdersWaiter: false,
       thirtyIterativeOrdersWaiter: false,
