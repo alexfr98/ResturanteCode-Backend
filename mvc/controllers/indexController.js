@@ -5,7 +5,7 @@ const User = mongoose.model("User");
 
 const defaultUser = (req, res) => {
   console.log("Connection Succesfull");
-  let data = {
+  let data = {  
     name: "AutoName",
     password: "123",
     currentDay: 2,
