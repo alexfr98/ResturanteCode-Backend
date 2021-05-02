@@ -129,45 +129,54 @@ const createUser = ({params}, res) => {
       tenOrdersChef: false,
       twentyfiveOrdersChef: false,
       fiftyOrdersChef: false,
-      seventyfiveOrdersChef: false,
       hundredOrdersChef: false,
+      
       firstBasicOrderChef: false,
       tenBasicOrdersChef: false,
       twentyfiveBasicOrdersChef: false,
-      fourtyBasicOrdersChef: false,
+      fiftyBasicOrdersChef: false,
+
       firstConditionalOrderChef: false,
       tenConditionalOrdersChef: false,
-      thirtyConditionalOrdersChef: false,
+      twentyfiveConditionalOrdersChef: false,
       fiftyConditionalOrdersChef: false,
+
       firstConditionalIfOrderChef: false,
       tenConditionalIfOrdersChef: false,
       thirtyConditionalIfOrdersChef: false,
+
       firstConditionalIfElseOrderChef: false,
       tenConditionalIfElseOrdersChef: false,
       thirtyConditionalIfElseOrdersChef: false,
+
       firstIterativeOrderChef: false,
       tenIterativeOrdersChef: false,
       thirtyIterativeOrdersChef: false,
+
       firstOrderWaiter: false,
       tenOrdersWaiter: false,
       twentyfiveOrdersWaiter: false,
       fiftyOrdersWaiter: false,
-      seventyfiveOrdersWaiter: false,
       hundredOrdersWaiter: false,
+
       firstBasicOrderWaiter: false,
       tenBasicOrderWaiter: false,
       twentyfiveBasicOrdersWaiter: false,
-      fourtyBasicOrdersWaiter: false,
+      fiftyBasicOrdersWaiter: false,
+
       firstConditionalOrderWaiter: false,
       tenConditionalOrdersWaiter: false,
-      thirtyConditionalOrdersWaiter: false,
+      twentyfiveConditionalOrdersWaiter: false,
       fiftyConditionalOrdersWaiter: false,
+
       firstConditionalIfOrderWaiter: false,
       tenConditionalIfOrdersWaiter: false,
       thirtyConditionalIfOrdersWaiter: false,
+
       firstConditionalIfElseOrderWaiter: false,
       tenConditionalIfElseOrdersWaiter: false,
       thirtyConditionalIfElseOrdersWaiter: false,
+      
       firstIterativeOrderWaiter: false,
       tenIterativeOrdersWaiter: false,
       thirtyIterativeOrdersWaiter: false,
