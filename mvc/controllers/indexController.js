@@ -5,16 +5,12 @@ const User = mongoose.model("User");
 
 const defaultUser = (req, res) => {
   console.log("Connection Succesfull");
-  let data = {  
+  let data = {
     name: "AutoName",
     password: "123",
-    currentDay: 2,
+    current_day: 2,
     dataLevel: {
-      totalExp: 0,
-      chefExp: 0,
-      waiterExp: 0,
-      waiterLevel: 1,
-      chefLevel: 1,
+      total_exp: 0,
       basicOrdersChef: false,
       conditionalIfOrdersChef: false,
       conditionalIfElseOrdersChef: false,
@@ -34,7 +30,6 @@ const defaultUser = (req, res) => {
       firstConditionalOrderChef: false,
       tenConditionalOrdersChef: false,
       thirtyConditionalOrdersChef: false,
-      fiftyConditionalOrdersChef: false,
       firstOrderWaiter: false,
       twentyOrdersWaiter: false,
       fortyOrdersWaiter: false,
@@ -104,13 +99,9 @@ const createUser = ({params}, res) => {
   let data = {
     name: params.userName,
     password: params.password,
-    currentDay: 1,
+    dia_actual: 1,
     dataLevel: {
-      totalExp: 0,
-      waiterExp: 0,
-      chefExp: 0,
-      waiterLevel: 1,
-      chefLevel: 1,
+      total_exp: 0,
       allOrdersChef: false,
       basicOrdersChef: false,
       conditionalOrdersChef: false,
@@ -129,54 +120,45 @@ const createUser = ({params}, res) => {
       tenOrdersChef: false,
       twentyfiveOrdersChef: false,
       fiftyOrdersChef: false,
+      seventyfiveOrdersChef: false,
       hundredOrdersChef: false,
-    
       firstBasicOrderChef: false,
       tenBasicOrdersChef: false,
       twentyfiveBasicOrdersChef: false,
-      fiftyBasicOrdersChef: false,
-
+      fourtyBasicOrdersChef: false,
       firstConditionalOrderChef: false,
       tenConditionalOrdersChef: false,
-      twentyfiveConditionalOrdersChef: false,
+      thirtyConditionalOrdersChef: false,
       fiftyConditionalOrdersChef: false,
-
       firstConditionalIfOrderChef: false,
       tenConditionalIfOrdersChef: false,
       thirtyConditionalIfOrdersChef: false,
-
       firstConditionalIfElseOrderChef: false,
       tenConditionalIfElseOrdersChef: false,
       thirtyConditionalIfElseOrdersChef: false,
-
       firstIterativeOrderChef: false,
       tenIterativeOrdersChef: false,
       thirtyIterativeOrdersChef: false,
-
       firstOrderWaiter: false,
       tenOrdersWaiter: false,
       twentyfiveOrdersWaiter: false,
       fiftyOrdersWaiter: false,
+      seventyfiveOrdersWaiter: false,
       hundredOrdersWaiter: false,
-
       firstBasicOrderWaiter: false,
       tenBasicOrderWaiter: false,
       twentyfiveBasicOrdersWaiter: false,
-      fiftyBasicOrdersWaiter: false,
-
+      fourtyBasicOrdersWaiter: false,
       firstConditionalOrderWaiter: false,
       tenConditionalOrdersWaiter: false,
-      twentyfiveConditionalOrdersWaiter: false,
+      thirtyConditionalOrdersWaiter: false,
       fiftyConditionalOrdersWaiter: false,
-
       firstConditionalIfOrderWaiter: false,
       tenConditionalIfOrdersWaiter: false,
       thirtyConditionalIfOrdersWaiter: false,
-
       firstConditionalIfElseOrderWaiter: false,
       tenConditionalIfElseOrdersWaiter: false,
       thirtyConditionalIfElseOrdersWaiter: false,
-
       firstIterativeOrderWaiter: false,
       tenIterativeOrdersWaiter: false,
       thirtyIterativeOrdersWaiter: false,
