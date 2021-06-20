@@ -1,2 +1,2 @@
 # TFG-VR-Backend
-Final Degree project Backend
+Degree Final Project Backend
