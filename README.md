@@ -1,2 +1,2 @@
 # TFG-VR-Backend
-Degree Final Project Backend
+Bacherlor's Final Project - Backend using MongoDB and NodeJS
